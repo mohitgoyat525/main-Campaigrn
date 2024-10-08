@@ -14,3 +14,12 @@ background: linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 1
 .shadow-3xl{
     box-shadow: 0px 4px 30px 0px #00000026;
 }
+
+.shadow-2xl{
+    bottom: 0px 10px 30px 0px #00000026;
+}
+
+.shadow-1xl{
+    box-shadow: 0px 4px 20px 0px #00000033;
+}
+

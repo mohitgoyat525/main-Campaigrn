@@ -36,7 +36,8 @@
             offWhite:'#FAF9F6',
             lightestGray:'#D9D9D9',
             offPurple:'#14142B',
-            offBlack:'#0A0A0D'
+            offBlack:'#0A0A0D',
+            offGray:'#EEEEEC',
           },
           fontSize:{
             '9xl':"80px",
@@ -57,7 +58,7 @@
 </head>
 <body class="font-thiccboi max-w-[1920px] mx-auto">
     <!-- ------------hero-section--------------->
-    <section class="relative">
+    <section id="home" class="relative">
       
       <img src="/assets/images/png/bg-blue-layer.png" alt="layer" class=" h-full pointer-events-none absolute top-0 right-0 max-sm:h-6/12 -z-10 max-w-[1317px] w-full">
       
@@ -91,7 +92,7 @@
          </div>
     </section>
     <!-- -------------revanue-grow-------------- -->
-    <section class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
+    <section id="about-us" class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
       <div class="container">
         <h2 class="text-center max-w-[1010px] mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-7xl max-md:text-6xl max-sm:text-3xl">See your revenue grow in
 real time with our dashboards.</h2>
@@ -101,9 +102,10 @@ real time with our dashboards.</h2>
   <button class="py-5 px-7 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Analytics</button>
   <button class="py-5 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Easy, Safe and Secured</button>
 </div>
-<div class="h-[604px] relative max-lg:h-full">
+<div class="h-[604px] relative max-lg:h-full max-w-[1398px]">
+
   <img src="/assets/images/svg/right-hand-arrow.svg" alt="aroow" class="-top-[62px] -right-2 absolute max-lg:hidden pointer-events-none">
-  <img src="/assets/images/svg/left-hand-arrow.svg" alt="aroow" class="bottom-[66px] -left-3 absolute max-lg:hidden pointer-events-none">
+  <img src="/assets/images/svg/left-hand-arrow.svg" alt="aroow" class="bottom-[66px] -left-1 absolute max-lg:hidden pointer-events-none">
 <div class="max-w-[1288px] h-[460px] greenlinear mx-auto rounded-[48px] mt-8 max-xl:h-full">
   <div class="bg-white max-w-[1299px] h-[458px] mx-auto rounded-[48px] translate-y-2 shadow-3xl max-xl:h-full">
     <div class="py-14 ps-10 pe-14">
@@ -132,7 +134,8 @@ real time with our dashboards.</h2>
   <button class="py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Inbound Leads</button>
   <button class="py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Campaigns</button>
 </div>
-<div class="max-w-[1123px] h-[315px] greenlinear mx-auto rounded-[48px] mt-8 max-xl:h-full">
+<div class="max-w-[1123px] h-[315px] greenlinear mx-auto rounded-[48px] mt-8 max-xl:h-full relative">
+  <img src="/assets/images/svg/matter-dwon-arrow.svg" alt="arrow" class="absolute -bottom-16 right-48 pointer-events-none max-md:hidden">
   <div class="bg-white max-w-[1123px] h-[313px] mx-auto rounded-[48px] translate-y-2 shadow-3xl max-xl:h-full">
     <div class="py-12 px-9">
       <p class="max-w-[1144px]  flex gap-5 font-normal text-lg text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6 pointer-events-none"></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -146,8 +149,9 @@ real time with our dashboards.</h2>
       </div>
     </section>
     <!-------------------campaign-syn-------------------  -->
-    <section class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
-        <div class="flex items-center gap-6 justify-center flex-wrap">
+    <section id="pricing" class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
+      <h2 class="text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-7xl max-md:text-6xl max-sm:text-3xl">How <span class="text-darkBlue">Main Campaign</span> Sync Works</h2>
+        <div class="flex items-center gap-6 justify-center flex-wrap mt-16 max-lg:mt-14 max-md:mt-10 max-sm:mt-7">
           <div class="w-[327px] h-48 greenlinear rounded-3xl shadow-3xl">
             <div class="bg-white rounded-3xl w-[327px] h-[191px] flex items-center  translate-y-1 flex-col">
               <h4 class="text-darkBlue text-center font-bold text-2xl leading-[112%] pt-5">Step #1</h4>
@@ -156,7 +160,7 @@ real time with our dashboards.</h2>
           </div>
           <!-- 02 -->
           <div class="w-[327px] h-48 greenlinear rounded-3xl shadow-3xl">
-            <div class="bg-white rounded-3xl w-[327px] h-[191px] flex items-center translate-y-1 flex-col">
+            <div class="bg-white rounded-3xl w-[327px] h-[191px] flex items-center -translate-y-1 flex-col">
               <h4 class="text-darkBlue text-center font-bold text-2xl leading-[112%] pt-5">Step #2</h4>
               <p class="text-center font-medium text-base leading-[150%] pt-4 text-lightGray px-5">Main Campaign automatically syncs inbound Facebook leads to sales CRM</p>
             </div>
@@ -170,7 +174,7 @@ real time with our dashboards.</h2>
           </div>
           <!-- 04 -->
           <div class="w-[327px] h-48 greenlinear rounded-3xl shadow-3xl">
-            <div class="bg-white rounded-3xl w-[327px] h-[191px] flex items-center translate-y-1 flex-col">
+            <div class="bg-white rounded-3xl w-[327px] h-[191px] flex items-center -translate-y-1 flex-col">
               <h4 class="text-darkBlue text-center font-bold text-2xl leading-[112%] pt-5">Step #4</h4>
               <p class="text-center font-medium text-base leading-[150%] pt-4 text-lightGray px-5">Sales team updates sales CRM with the Lead’s purchase revenue</p>
             </div>
@@ -185,7 +189,7 @@ real time with our dashboards.</h2>
         </div>
     </section>
     <!-- ------------------sales-driven----------------- -->
-    <section class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
+    <section id="pricing-selling" class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
       <div class="container">
         <h2 class="max-w-[991px] text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-7xl max-md:text-6xl max-sm:text-3xl">Understand <sapn class="text-darkBlue">how many sales</sapn> are driven from your campaigns</h2>
         <div class="flex items-center max-md:flex-wrap">
@@ -194,7 +198,7 @@ real time with our dashboards.</h2>
               <p class="text-xl font-medium text-lightBlack leading-[140%] max-w-[635px]">The issue with tracking marketing data in an online setting is that you’re not getting the full picture. Although you’re still making sales offline. it’s nearly impossible to track exactly what online campaigns are doin the job, and which ones aren’t...until now.</p>
               <p class="text-xl font-medium text-lightBlack leading-[140%] max-w-[604px] pt-5">With Main Campaign, you can integrate your conversion data with Facebook conversion API and Offline Conversion Tracking directly.</p>
               <div class="flex items-center gap-4 mt-14 max-md:mt-10 max-sm:mt-5">
-                <div class="shadow-2xl">
+                <div class="shadow-2xl bg-transparent rounded-full">
                   <button class="shadow-1xl bg-darkBlue text-xl text-white leading-[140%] py-3 px-7 rounded-full">Started<button>
                 </div>
                 <div class="flex-col">
@@ -257,8 +261,8 @@ real time with our dashboards.</h2>
     <section class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
       <div class="container overflow-hidden">
         <h2 class="text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-7xl max-md:text-6xl max-sm:text-3xl max-w-[887px]">Businesses generate more revenue with Main Campaign</h2>
-      <div class="flex items-center justify-center mt-28">
-        <div class="slider-parent flex items-center ">
+      <div class="flex items-center justify-center mt-28 ">
+        <div class="slider-parent flex items-center pb-10">
           <!-- 01 -->
           <div class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:min-w-[400px] max-md:min-w-[425px] min-w-[476px] pt-2">
             <div class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
@@ -332,7 +336,7 @@ real time with our dashboards.</h2>
                         </div>
                         <div class="border border-lightGray w-[419px] rounded-full my-7"></div>
                         <button
-                            class="text-xl text-center font-bold border border-transparent max-w-[172px] mx-auto mb-7 text-white  rounded-full py-3 px-6 duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-lightGray hover:text-offBlack shadow-2xl">Read
+                            class=" text-xl text-center font-bold border border-transparent max-w-[172px] mx-auto mb-7 text-white  rounded-full py-3 px-6 duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-lightGray hover:text-offBlack shadow-2xl">Read
                             more</button>
 
             </div>
@@ -358,7 +362,7 @@ real time with our dashboards.</h2>
                         </div>
                         <div class="border border-lightGray w-[419px] rounded-full my-7"></div>
                         <button
-                            class="text-xl text-center font-bold border border-transparent max-w-[172px] mx-auto mb-7 text-white  rounded-full py-3 px-6 duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-lightGray hover:text-offBlack shadow-2xl">Read
+                            class=" text-xl text-center font-bold border border-transparent max-w-[172px] mx-auto mb-7 text-white  rounded-full py-3 px-6 duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-lightGray hover:text-offBlack shadow-2xl">Read
                             more</button>
 
             </div>
@@ -368,14 +372,90 @@ real time with our dashboards.</h2>
       </div>
     </section>
     <!-- ----------------ready-to-scale------------------------ -->
-    <section class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
-      <div class="container">
-        <h2 class="text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-7xl max-md:text-6xl max-sm:text-3xl">Are you ready to scale?</h2>
-        <div class="flex items-center justify-center my-7">
-          <button class="py-5 px-7 bg-darkBlue rounded-full ">Start My Free Trial</button>
+     <section class="relative">
+        <div class="max-w-[686px] absolute  -bottom-96 left-0 -z-10">
+            <img class="" src="./assets/images/png/bg-bottom-layer.png" alt="bg-layer">
         </div>
-      </div>
+        <div class="container">
+            <h2 class="text-8xl font-bold text-center mb-7 text-lightBlack leading-[116%] max-xl:text-7xl max-md:text-6xl max-sm:text-3xl">Are you ready to scale?</h2>
+            <div class="justify-center flex mb-9">
+                <button class="text-base font-medium text-center py-5 px-7 bg-darkBlue text-white rounded-full">Start
+                    My Free Trial</button>
+            </div>
+            <div class="max-w-[1218px] mx-auto mb-[90px]">
+                <img class="w-full" src="./assets/images/png/leader-center-2k.png" alt="leading-center-data" >
+            </div>
+        </div>
     </section>
+    <!-- ---------------footer-------------------- -->
+   <section class="bg-offWhite px-3 pb-14 pt-[120px]">
+        <!------------------- slider-two--------------------->
+        <div class="max-w-[1621px] mx-auto items-center flex mb-16">
+            <div class="flex items-center justify-center min-w-10 min-h-10 rounded-full bg-offGray prev cursor-pointer"><img src="/assets/images/svg/prev-arrow.svg" alt="prev-arrow"></div>
+            <div class="slick-parent-two overflow-hidden items-center flex">
+                <div><img class="mx-auto" src="./assets/images/svg/nogouch-icon.svg" alt="noguchi-icon"></div>
+                <div><img class="mx-auto" src="./assets/images/svg/airbnb-icon.svg" alt="airbnb-icon"></div>
+                <div><img class="mx-auto" src="./assets/images/svg/pro-bussnies-icon.svg" alt="pro-business-icon"></div>
+                <div><img class="mx-auto" src="./assets/images/svg/airba-icon.svg" alt="ariba-icon"></div>
+                <div><img class="mx-auto" src="./assets/images/svg/i-desgin-icon.svg" alt="idesign-icon"></div>
+                <div><img class="mx-auto" src="./assets/images/svg/brooks-icon.svg" alt="brooks-icon"></div>
+                <div><img class="mx-auto" src="./assets/images/svg/lokama-icon.svg" alt="lokuma-icon"></div>
+                <div><img class="mx-auto" src="./assets/images/svg/land-icon.svg" alt="land-icon"></div>
+            </div>
+           <div class="flex items-center justify-center min-w-10 min-h-10 rounded-full bg-offGray next cursor-pointer"><img class="next" src="./assets/images/svg/next-arrow.svg" alt="next-button"></div>
+        </div>
+        <div class="border-t border-b border-darkBlue border-dashed max-w-[1600px] mx-auto">
+            <div class="max-w-[1400px] mx-auto flex flex-wrap py-16 gap-y-7">
+                <div class="lg:w-3/12 w-full">
+                   <a href="/"><img src="./assets/images/svg/main-campaign-logo.svg" alt="logo"></a>
+                </div>
+                <div class="lg:w-2/12 md:w-3/12 w-6/12 gap-y-6 flex flex-col">
+                    <p class="uppercase text-xl font-bold text-offBlack">company</p>
+                    <div class="flex flex-col gap-y-5 opacity-75">
+                        <a href="#home"><p class="font-light text-base text-offBlack">Home </p></a>
+                        <a href="#about-us"><p class="font-light text-base text-offBlack">About us</p></a>
+                        <a href="#pricing"><p class="font-light text-base text-offBlack">Pricing</p></a>
+                        <a href="#pricing-selling"><p class="font-light text-base text-offBlack">Pricing Start free trial</p></a>
+                    </div>
+                </div>
+                <div class="lg:w-2/12 md:w-3/12 w-6/12">
+                    <div class="max-w-[92px] mx-auto gap-y-6 flex flex-col">
+                        <p class="uppercase text-xl font-bold text-offBlack">Support</p>
+                        <div class="flex flex-col gap-y-5 opacity-75">
+                            <p class="font-light text-base text-offBlack"><a href="/">Contact us</a></p>
+                            <p class="font-light text-base text-offBlack"><a href="/">FAQs</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-5/12 md:w-6/12 w-full">
+                    <div class="max-w-[477px] lg:ml-auto gap-y-5 flex flex-col">
+                        <p class="uppercase text-xl font-bold text-offBlack">subscribe</p>
+                        <form class="max-w-[447px]">
+                            <input required class="w-full p-5 rounded-2xl outline-none placeholder:text-base placeholder:font-light placeholder:text-offBlack text-offBlack font-light text-base" type="email"
+                                placeholder="Enter email address" >
+                        </form>
+                        <p class="text-sm font-light opacity-75 leading-[157%] text-offBlack">By submitting your email you agree to
+                            our
+                            Terms of Use and Sale and Privacy Policy. You will receive email communications from us for
+                            marketing, informational, and promotional purposes and can opt-out at any time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-[1585px] mx-auto flex justify-between items-center flex-wrap gap-y-5 pt-10">
+            <a class="text-sm font-light opacity-75" href="/">Privacy Policy  • Terms & Conditions</a>
+            <div class="flex gap-5">
+               <div class="w-12 h-12 rounded-full bg-offGray flex items-center justify-center hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"><a target="_blank" href="https://www.facebook.com/"><img src="./assets/images/svg/face-book-icon.svg"
+                        alt="facebook"></a></div>
+               <div class="w-12 h-12 rounded-full bg-offGray flex items-center justify-center hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"><a target="_blank" href="https://www.instagram.com/"><img src="./assets/images/svg/instagram-icon.svg"
+                        alt="instagram"></a></div>
+               <div class="w-12 h-12 rounded-full bg-offGray flex items-center justify-center hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"><a target="_blank" href="https://in.linkedin.com/"><img src="./assets/images/svg/linked-in.svg" alt="in"></a></div>
+                <div class="w-12 h-12 rounded-full bg-offGray flex items-center justify-center hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all"><a target="_blank" href="https://www.cricbuzz.com/"><img src="./assets/images/svg/cb-icon.svg" alt="cb"></a></div>
+            </div>
+        </div>
+    </section>
+
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>

@@ -37,3 +37,38 @@ $(".slider-parent").slick({
     },
   ],
 });
+// slider-two
+$(".slick-parent-two").slick({
+  infinite: true,
+  slidesToShow: 7.99,
+  slidesToScroll: 2,
+  nextArrow: ".next",
+  prevArrow: ".prev",
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 6,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+  ],
+});

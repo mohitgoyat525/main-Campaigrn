@@ -2,7 +2,9 @@
     font-family:thiccboi ;
     src: url(/assets/font/THICCCBOI-Medium.ttf);
 }
-
+*{
+    scroll-behavior: smooth;
+}
 .font-thiccboi{
      font-family:thiccboi
 }

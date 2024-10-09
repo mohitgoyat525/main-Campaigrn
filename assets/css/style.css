@@ -11,10 +11,6 @@
 background: linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 130.42%);
 }
 
-.shadow-3xl{
-    box-shadow: 0px 4px 30px 0px #00000026;
-}
-
 .shadow-2xl{
     bottom: 0px 10px 30px 0px #00000026;
 }
@@ -23,4 +19,33 @@ background: linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 1
     box-shadow: 0px 4px 20px 0px #00000033;
 }
 
+.slider-parent .slick-list{
+    overflow: unset !important;
+}
 
+.slider-parent .slick-list {
+  overflow: unset !important;
+}
+
+.slider-parent .slick-track {
+  display: flex;
+  gap: 33px;
+}
+
+.slider-parent .slick-dots li {
+  background-color: #faf9f6;
+  border-radius: 100px;
+  width: 10px;
+  height: 10px;
+}
+
+.slider-parent .slick-dots .slick-active {
+  width: 10px;
+  background-color: #3b5998;
+  border-radius: 21px;
+  height: 10px;
+}
+
+.slider-parent .slick-dots ::before {
+display: none;
+}

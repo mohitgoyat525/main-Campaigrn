@@ -17,15 +17,16 @@
     tailwind.config = {
       theme: {
          container: {
-          center: true,
-          screens: {
-            sm: "992px",
-            "2xl": "1392px",
-          },
-          borderRadius: {
-           'large': '48px',
-    },
-        },
+                    padding: '12px',
+                    center: true,
+                    screens: {
+                        sm: "600px",
+                        md: "728px",
+                        lg: "984px",
+                        xl: "1320px",
+                        "2xl": "1496px",
+                    },
+                },
         extend: {
           colors:{
             darkBlue:'#3B5998',
@@ -42,9 +43,13 @@
             '8xl':"65px",
 
           },
-          dropShadow:{
-            '3xl':'#00000026',
-          },
+         boxShadow: {
+            'images-shadow': ' 5px 10px 50px 0px #0000001A',
+            '3xl': '  0px 4px 30px 0px #00000026',
+            '2xl': ' 0px 10px 30px 0px #00000026',
+            'jhon-data': '4px 10px 50px 0px #5C5C5C26 , 4px 15px 30px 0px #0000000D',
+            'leads-center': '0px 10px 15px 0px #00000026'
+          }
         }
       }
     }
@@ -250,95 +255,124 @@ real time with our dashboards.</h2>
     </section>
     <!-- ------------------busniess-genrate------------------ -->
     <section class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
-      <div class="container">
+      <div class="container overflow-hidden">
         <h2 class="text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-7xl max-md:text-6xl max-sm:text-3xl max-w-[887px]">Businesses generate more revenue with Main Campaign</h2>
-        <div class="flex items-center mt-20 max-lg:mt-16 max-md:mt-12 max-sm:mt-8">
-          <div class="slider-parent flex items-center gap-8 ">
-            <!-- 01 -->
-            <div class="bg-darkBlue w-[446px] h-[477px] rounded-[48px] ">
-              <div class="bg-white w-[446px] h-[476px] rounded-[48px] translate-y-2 shadow-3xl">
-                <div class="flex items-center justify-center -translate-x-1">
-                  <img src="/assets/images/svg/next-tag.svg" alt="next-tag" class="pointer-events-none -translate-y-36">
-                </div>
-                <h4 class="text-2xl font-bold text-lightBlack -mt-36 leading-[112%]">Next Technologies</h4>
-                <p class="max-w-[395px] font-medium text-base leading-[150%] text-lightGray pt-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
-                <div class="flex items-center pt-11">
-                  <img src="/assets/images/svg/james.svg" alt="james" class="pointer-events-none">
-                  <div class="flex-col">
-                    <p class="font-bold text-xl text-offBlack">James</p>
-                    <p class="font-medium text-sm text-lightGray">Co-Founder at Slash next technologies.</p>
-                  </div>
-                </div>
-                <div class="w-full border border-lightGray border-solid mt-9"></div>
-                <div class="flex items-center justify-center">
-                  <button class="bg-darkBlue py-3 px-12 text-lightBlack rounded-full font-bold text-sm">Read more</button>
-                </div>
+      <div class="flex items-center justify-center mt-28">
+        <div class="slider-parent flex items-center ">
+          <!-- 01 -->
+          <div class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:min-w-[400px] max-md:min-w-[425px] min-w-[476px] pt-2">
+            <div class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
+              <div class="flex items-center justify-center">
+                <img class="mt-[-30%]" src="/assets/images/svg/next-tag.svg" alt="next-tag">
+
               </div>
-            </div>
-            <!-- 02 -->
-             <div class="bg-darkBlue w-[446px] h-[477px] rounded-[48px]">
-              <div class="bg-white w-[446px] h-[476px] rounded-[48px] translate-y-2 shadow-3xl">
-                <div class="flex items-center justify-center -translate-x-1">
-                  <img src="/assets/images/svg/next-tag.svg" alt="next-tag" class="pointer-events-none -translate-y-36">
-                </div>
-                <h4 class="text-2xl font-bold text-lightBlack -mt-36 leading-[112%]">Next Technologies</h4>
-                <p class="max-w-[395px] font-medium text-base leading-[150%] text-lightGray pt-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
-                <div class="flex items-center pt-11">
-                  <img src="/assets/images/svg/james.svg" alt="james" class="pointer-events-none">
-                  <div class="flex-col">
-                    <p class="font-bold text-xl text-offBlack">James</p>
-                    <p class="font-medium text-sm text-lightGray">Co-Founder at Slash next technologies.</p>
-                  </div>
-                </div>
-                <div class="w-full border border-lightGray border-solid mt-9"></div>
-                <div class="flex items-center justify-center">
-                  <button class="bg-darkBlue py-3 px-12 text-lightBlack rounded-full font-bold text-sm">Read more</button>
-                </div>
-              </div>
-            </div>
-            <!-- 03 -->
-             <div class="bg-darkBlue w-[446px] h-[477px] rounded-[48px]">
-              <div class="bg-white w-[446px] h-[476px] rounded-[48px] translate-y-2 shadow-3xl">
-                <div class="flex items-center justify-center -translate-x-1">
-                  <img src="/assets/images/svg/next-tag.svg" alt="next-tag" class="pointer-events-none -translate-y-36">
-                </div>
-                <h4 class="text-2xl font-bold text-lightBlack -mt-36 leading-[112%]">Next Technologies</h4>
-                <p class="max-w-[395px] font-medium text-base leading-[150%] text-lightGray pt-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
-                <div class="flex items-center pt-11">
-                  <img src="/assets/images/svg/james.svg" alt="james" class="pointer-events-none">
-                  <div class="flex-col">
-                    <p class="font-bold text-xl text-offBlack">James</p>
-                    <p class="font-medium text-sm text-lightGray">Co-Founder at Slash next technologies.</p>
-                  </div>
-                </div>
-                <div class="w-full border border-lightGray border-solid mt-9"></div>
-                <div class="flex items-center justify-center">
-                  <button class="bg-darkBlue py-3 px-12 text-lightBlack rounded-full font-bold text-sm">Read more</button>
-                </div>
-              </div>
-            </div>
-            <!-- 04 -->
-             <div class="bg-darkBlue w-[446px] h-[477px] rounded-[48px]">
-              <div class="bg-white w-[446px] h-[476px] rounded-[48px] translate-y-2 shadow-3xl">
-                <div class="flex items-center justify-center -translate-x-1">
-                  <img src="/assets/images/svg/next-tag.svg" alt="next-tag" class="pointer-events-none -translate-y-36">
-                </div>
-                <h4 class="text-2xl font-bold text-lightBlack -mt-36 leading-[112%]">Next Technologies</h4>
-                <p class="max-w-[395px] font-medium text-base leading-[150%] text-lightGray pt-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
-                <div class="flex items-center pt-11">
-                  <img src="/assets/images/svg/james.svg" alt="james" class="pointer-events-none">
-                  <div class="flex-col">
-                    <p class="font-bold text-xl text-offBlack">James</p>
-                    <p class="font-medium text-sm text-lightGray">Co-Founder at Slash next technologies.</p>
-                  </div>
-                </div>
-                <div class="w-full border border-lightGray border-solid mt-9"></div>
-                <div class="flex items-center justify-center">
-                  <button class="bg-darkBlue py-3 px-12 text-lightBlack rounded-full font-bold text-sm">Read more</button>
-                </div>
-              </div>
+               <p class="text-2xl font-bold text-start leading-[112%] text-offBlack">Next Technologies</p>
+                        <p class="max-w-[395px] font-medium text-base text-lightGray leading-[150%]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.” </p>
+                            <div class="flex gap-3 items-center mt-8">
+                            <img class="size-[58px]" src="./assets/images/svg/james.svg" alt="img">
+                            <div>
+                                <p class="text-2xl font-bold leading-[115%] text-offBlack">James</p>
+                                <p class="text-sm font-medium text-lightGray">Co-Founder at Slash next technologies.</p>
+                            </div>
+                        </div>
+                        <div class="border border-lightGray w-[419px] rounded-full my-7"></div>
+                        <button
+                            class="text-xl text-center font-bold border border-transparent max-w-[172px] mx-auto mb-7 text-white  rounded-full py-3 px-6 duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-lightGray hover:text-offBlack shadow-2xl">Read
+                            more</button>
+
             </div>
           </div>
+          <!-- 02 -->
+           <div class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:min-w-[400px] max-md:min-w-[425px] min-w-[476px] pt-2">
+            <div class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
+              <div class="flex items-center justify-center">
+                <img class="mt-[-30%]" src="/assets/images/svg/code-sync.svg" alt="next-tag">
+
+              </div>
+               <p class="text-2xl font-bold text-start leading-[112%] text-offBlack">Next Technologies</p>
+                        <p class="max-w-[395px] font-medium text-base text-lightGray leading-[150%]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.” </p>
+                            <div class="flex gap-3 items-center mt-8">
+                            <img class="size-[58px]" src="./assets/images/svg/kathie.svg" alt="img">
+                            <div>
+                                <p class="text-2xl font-bold leading-[115%] text-offBlack">James</p>
+                                <p class="text-sm font-medium text-lightGray">Co-Founder at Slash next technologies.</p>
+                            </div>
+                        </div>
+                        <div class="border border-lightGray w-[419px] rounded-full my-7"></div>
+                        <button
+                            class="text-xl text-center font-bold border border-transparent max-w-[172px] mx-auto mb-7 text-white  rounded-full py-3 px-6 duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-lightGray hover:text-offBlack shadow-2xl">Read
+                            more</button>
+
+            </div>
+          </div>
+          <!-- 03 -->
+           <div class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:min-w-[400px] max-md:min-w-[425px] min-w-[476px] pt-2">
+            <div class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
+              <div class="flex items-center justify-center">
+                <img class="mt-[-30%]" src="/assets/images/svg/unwarrior-icon.svg" alt="next-tag">
+
+              </div>
+               <p class="text-2xl font-bold text-start leading-[112%] text-offBlack">Next Technologies</p>
+                        <p class="max-w-[395px] font-medium text-base text-lightGray leading-[150%]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.” </p>
+                            <div class="flex gap-3 items-center mt-8">
+                            <img class="size-[58px]" src="./assets/images/svg/kathie.svg" alt="img">
+                            <div>
+                                <p class="text-2xl font-bold leading-[115%] text-offBlack">James</p>
+                                <p class="text-sm font-medium text-lightGray">Co-Founder at Slash next technologies.</p>
+                            </div>
+                        </div>
+                        <div class="border border-lightGray w-[419px] rounded-full my-7"></div>
+                        <button
+                            class="text-xl text-center font-bold border border-transparent max-w-[172px] mx-auto mb-7 text-white  rounded-full py-3 px-6 duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-lightGray hover:text-offBlack shadow-2xl">Read
+                            more</button>
+
+            </div>
+          </div>
+          <!-- 04 -->
+           <div class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:min-w-[400px] max-md:min-w-[425px] min-w-[476px] pt-2">
+            <div class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
+              <div class="flex items-center justify-center">
+                <img class="mt-[-30%]" src="/assets/images/svg/next-tag.svg" alt="next-tag">
+
+              </div>
+               <p class="text-2xl font-bold text-start leading-[112%] text-offBlack">Next Technologies</p>
+                        <p class="max-w-[395px] font-medium text-base text-lightGray leading-[150%]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.” </p>
+                            <div class="flex gap-3 items-center mt-8">
+                            <img class="size-[58px]" src="./assets/images/svg/james.svg" alt="img">
+                            <div>
+                                <p class="text-2xl font-bold leading-[115%] text-offBlack">James</p>
+                                <p class="text-sm font-medium text-lightGray">Co-Founder at Slash next technologies.</p>
+                            </div>
+                        </div>
+                        <div class="border border-lightGray w-[419px] rounded-full my-7"></div>
+                        <button
+                            class="text-xl text-center font-bold border border-transparent max-w-[172px] mx-auto mb-7 text-white  rounded-full py-3 px-6 duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-lightGray hover:text-offBlack shadow-2xl">Read
+                            more</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- ----------------ready-to-scale------------------------ -->
+    <section class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
+      <div class="container">
+        <h2 class="text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-7xl max-md:text-6xl max-sm:text-3xl">Are you ready to scale?</h2>
+        <div class="flex items-center justify-center my-7">
+          <button class="py-5 px-7 bg-darkBlue rounded-full ">Start My Free Trial</button>
         </div>
       </div>
     </section>

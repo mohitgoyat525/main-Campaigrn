@@ -67,14 +67,16 @@
           <header class="relative z-20">
             <nav class="flex relative z-20 justify-between pt-16 max-lg:p-14 max-md:p-8 max-sm:p-5 ">
              <a href=""><img width="200px" height="29px" src="/assets/images/svg/main-campaign-logo.svg" alt="logo"></a>
-             <div onclick="navbtn()" class="flex-col flex gap-2 md:hidden">
-              <span class="bg-black w-9 h-1 rounded-2xl" id="roated-one"></span>
-              <span class="bg-black w-9 h-1 rounded-2xl" id="transperent"></span>
-              <span class="bg-black w-9 h-1 rounded-2xl" id="roated-two"></span>
+             <div onclick="navbtn()" class="flex-col flex gap-1 md:hidden z-20">
+              <span class="bg-black origin-left w-6 h-1 rounded-2xl duration-300 ease-linear transition-all" id="roated-one"></span>
+              <span class="bg-black origin-left w-6 h-1 rounded-2xl duration-300 ease-linear transition-all" id="transperent"></span>
+              <span class="bg-black origin-left w-6 h-1 rounded-2xl duration-300 ease-linear transition-all" id="roated-two"></span>
             </div>
-             <div class="gap-11 flex max-md:hidden max-md:fixed justify-center items-center max-md:bg-white max-md:w-full max-md:h-full max-md:-top-full max-md:-right-full transition-all duration-300" id="navlinks">
+             <div class="gap-11 flex  max-md:fixed justify-center items-center max-md:bg-white max-md:w-full max-md:h-full max-md:-top-full max-md:-right-full transition-all duration-300" id="navlinks">
+              <div class="flex gap-11 items-center justify-center max-md:flex-col">
               <button class="py-3 px-6 hover:bg-darkBlue hover:rounded-full transition-all ease-linear duration-300 hover:text-white font-semibold text-sm">Login or Register</button>
               <button class="py-3 px-6 bg-darkBlue rounded-full hover:text-white duration-300 ease-linear transition-all font-semibold text-sm">Start Free Trial</button>
+              </div>
              </div>
             </nav>
           </header>
@@ -97,13 +99,13 @@
       <div class="container">
         <h2 class="text-center max-w-[1010px] mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl max-sm:pt-6">See your revenue grow in
 real time with our dashboards.</h2>
-<div class=" flex items-center justify-center gap-4 mt-8 flex-wrap">
-  <button class="py-5 px-8 bg-darkBlue rounded-full text-white">CRM Integrations</button>
-  <button class="py-5 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Marketing Platform Integrations</button>
-  <button class="py-5 px-7 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Analytics</button>
-  <button class="py-5 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Easy, Safe and Secured</button>
+<div class="max-w-[910px] mx-auto flex justify-between items-center max-xl:overflow-x-auto gap-5 scroll-w-0 my-9">
+  <button class="py-5 px-8 bg-darkBlue rounded-full text-white max-lg:min-w-[241px]">CRM Integrations</button>
+  <button class="py-5 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-lg:min-w-[337px]">Marketing Platform Integrations</button>
+  <button class="py-5 px-7 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-lg:min-w-[143px]">Analytics</button>
+  <button class="py-5 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-lg:min-w-[265px]">Easy, Safe and Secured</button>
 </div>
-<div class="h-[499px] relative max-2xl:h-full max-w-[1398px]">
+<div class="h-[499px] relative max-2xl:h-full max-w-[1398px] mt-16 max-md:mt-10 max-sm:mt-5">
 
   <img src="/assets/images/svg/right-hand-arrow.svg" alt="aroow" class="-top-[62px] -right-2 absolute max-lg:hidden pointer-events-none">
   <img src="/assets/images/svg/left-hand-arrow.svg" alt="aroow" class="-bottom-8 max-2xl:-bottom-20 max-2xl:-left-9 -left-1 absolute max-lg:hidden pointer-events-none">
@@ -111,10 +113,10 @@ real time with our dashboards.</h2>
   <div class="bg-white max-w-[1299px] h-[458px] mx-auto rounded-[48px] translate-y-2 shadow-3xl max-xl:h-full">
     <div class="py-14 ps-10 pe-14 max-md:py-10 max-sm:py-7 max-md:px-9 max-sm:px-7">
       <p class="max-w-[1144px]  flex gap-5 font-normal text-lg text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6"></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      <p class="pt-6 max-2xl:pt-4 flex gap-5 font-normal text-lg  text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6"></span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-      <p class="pt-6 max-2xl:pt-4 flex gap-5 font-normal text-lg  text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6"></span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      <p class="pt-6 max-2xl:pt-4 flex gap-5 font-normal text-lg  text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6"></span>Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-      <p class="pt-6 max-2xl:pt-4 flex gap-5 font-normal text-lg  text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6"></span>Euis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <p class="pt-6 max-2xl:pt-4 flex gap-5 font-normal text-lg text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6"></span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+      <p class="pt-6 max-2xl:pt-4 flex gap-5 font-normal text-lg text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6"></span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <p class="pt-6 max-2xl:pt-4 flex gap-5 font-normal text-lg text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6"></span>Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <p class="pt-6 max-2xl:pt-4 flex gap-5 font-normal text-lg text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6"></span>Euis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
   </div>
 </div>
@@ -128,12 +130,12 @@ real time with our dashboards.</h2>
         <div class="flex items-center justify-center mt-5">
           <img src="/assets/images/png/marketing-analytics-2k.png" alt="Marketing" class="max-w-[988px] max-lg:w-full pointer-events-none">
         </div>
-        <div class=" flex items-center justify-center gap-4 mt-8 flex-wrap">
-  <button class="py-5 px-8 bg-darkBlue rounded-full text-white">Spending</button>
-  <button class="py-4 px-7 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Reach</button>
-  <button class="py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Revenue</button>
-  <button class="py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Inbound Leads</button>
-  <button class="py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Campaigns</button>
+        <div class="max-w-[750px] mx-auto flex justify-between items-center max-lg:overflow-x-auto gap-2 mb-7 scroll-w-0 mt-7">
+  <button class="max-lg:min-w-[161px] py-5 px-8 bg-darkBlue rounded-full text-white">Spending</button>
+  <button class="max-lg:min-w-[112px] py-4 px-7 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Reach</button>
+  <button class="max-lg:min-w-[123px] py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Revenue</button>
+  <button class="max-lg:min-w-[180px] py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Inbound Leads</button>
+  <button class="max-lg:min-w-[180px] py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid">Campaigns</button>
 </div>
 <div class="max-w-[1123px] h-[315px] greenlinear mx-auto rounded-[48px] mt-8 max-xl:h-full relative">
   <img src="/assets/images/svg/matter-dwon-arrow.svg" alt="arrow" class="absolute -bottom-16 right-48 pointer-events-none max-md:hidden">
@@ -225,7 +227,7 @@ real time with our dashboards.</h2>
       </div>
        <div class="flex items-center justify-center gap-14 max-lg:gap-10 max-md:gap-7 max-sm:gap-5 flex-wrap mt-16 max-lg:mt-12 max-md:mt-6 max-sm:mt-3">
           <!-- 01 -->
-          <div class="min-w-[351px] h-[312px] rounded-3xl shadow-3xl max-sm:min-w-[320px]">
+          <div class="min-w-[351px] h-[312px] rounded-3xl shadow-3xl max-sm:min-w-[320px] max-sm:mt-6">
             <div class="flex items-center justify-center">
               <img src="/assets/images/svg/no-sharing.svg" alt="no-sharing" class="pt-8 pointer-events-none">
             </div>
@@ -410,18 +412,18 @@ real time with our dashboards.</h2>
                 <div class="lg:w-2/12 md:w-3/12 w-6/12 gap-y-6 flex flex-col">
                     <p class="uppercase text-xl font-bold text-offBlack">company</p>
                     <div class="flex flex-col gap-y-5 opacity-75">
-                        <a href="#home"><p class="font-light text-base text-offBlack">Home </p></a>
-                        <a href="#about-us"><p class="font-light text-base text-offBlack">About us</p></a>
-                        <a href="#pricing"><p class="font-light text-base text-offBlack">Pricing</p></a>
-                        <a href="#pricing-selling"><p class="font-light text-base text-offBlack">Pricing Start free trial</p></a>
+                        <a href="#home"><p class="font-light text-base text-offBlack duration-300 ease-linear transition-all hover:text-darkBlue">Home </p></a>
+                        <a href="#about-us"><p class="font-light text-base text-offBlack duration-300 ease-linear transition-all hover:text-darkBlue">About us</p></a>
+                        <a href="#pricing"><p class="font-light text-base text-offBlack duration-300 ease-linear transition-all hover:text-darkBlue">Pricing</p></a>
+                        <a href="#pricing-selling"><p class="font-light text-base text-offBlack duration-300 ease-linear transition-all hover:text-darkBlue">Pricing Start free trial</p></a>
                     </div>
                 </div>
                 <div class="lg:w-2/12 md:w-3/12 w-6/12">
                     <div class="max-w-[92px] mx-auto gap-y-6 flex flex-col">
                         <p class="uppercase text-xl font-bold text-offBlack">Support</p>
                         <div class="flex flex-col gap-y-5 opacity-75">
-                            <p class="font-light text-base text-offBlack"><a href="/">Contact us</a></p>
-                            <p class="font-light text-base text-offBlack"><a href="/">FAQs</a></p>
+                            <p class="font-light text-base text-offBlack duration-300 ease-linear transition-all hover:text-darkBlue"><a href="/">Contact us</a></p>
+                            <p class="font-light text-base text-offBlack duration-300 ease-linear transition-all hover:text-darkBlue"><a href="/">FAQs</a></p>
                         </div>
                     </div>
                 </div>

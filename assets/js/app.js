@@ -1,7 +1,7 @@
 // Navbar
 const navbtn = () => {
-  document.getElementById("navlinks").classList.toggle("max-lg:top-0");
-  document.getElementById("navlinks").classList.toggle('max-lg:left-0');
+  document.getElementById("navlinks").classList.toggle("max-md:top-0");
+  document.getElementById("navlinks").classList.toggle('max-md:left-0');
   document.getElementById("roated-one").classList.toggle("rotate-45");
   document.getElementById("roated-two").classList.toggle("-rotate-45");
   document.getElementById("transperent").classList.toggle("opacity-0");

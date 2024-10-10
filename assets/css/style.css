@@ -13,33 +13,34 @@
 background: linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 130.42%);
 }
 
-.slider-parent .slick-list{
-    overflow: unset !important;
-}
-
-.slider-parent .slick-list {
+.slider-parent-one .slick-list {
   overflow: unset !important;
 }
-
-.slider-parent .slick-track {
+.slider-parent-one .slick-track {
   display: flex;
-  gap: 33px;
+  gap: 30px;
 }
 
-.slider-parent .slick-dots li {
+.slider-parent-one .slick-dots li {
   background-color: #faf9f6;
   border-radius: 100px;
   width: 10px;
   height: 10px;
 }
-
-.slider-parent .slick-dots .slick-active {
+.slider-parent-one .slick-dots .slick-active {
   width: 10px;
   background-color: #3b5998;
   border-radius: 21px;
   height: 10px;
 }
-
-.slider-parent .slick-dots ::before {
-display: none;
+.slider-parent-one .slick-dots {
+  position: absolute !important;
+  display: flex;
+  margin-top: 10px;
+  bottom: -30px !important;
+  justify-content: center;
 }
+.slider-parent-one .slick-dots li button:before {
+  color: transparent !important;
+}
+

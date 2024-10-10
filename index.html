@@ -38,6 +38,7 @@
             offPurple:'#14142B',
             offBlack:'#0A0A0D',
             offGray:'#EEEEEC',
+            borderGray:'#DAD7D7',
           },
           fontSize:{
             '9xl':"80px",
@@ -69,9 +70,9 @@
              <div onclick="navbtn()" class="flex-col flex gap-2 md:hidden">
               <span class="bg-black w-9 h-1 rounded-2xl" id="roated-one"></span>
               <span class="bg-black w-9 h-1 rounded-2xl" id="transperent"></span>
-              <span class="bg-black w-9 h-1 rounded-2xl" id="roated-one"></span>
+              <span class="bg-black w-9 h-1 rounded-2xl" id="roated-two"></span>
             </div>
-             <div class=" gap-11 flex max-md:hidden" id="navlinks">
+             <div class="gap-11 flex max-md:hidden max-md:fixed justify-center items-center max-md:bg-white max-md:w-full max-md:h-full max-md:-top-full max-md:-right-full transition-all duration-300" id="navlinks">
               <button class="py-3 px-6 hover:bg-darkBlue hover:rounded-full transition-all ease-linear duration-300 hover:text-white font-semibold text-sm">Login or Register</button>
               <button class="py-3 px-6 bg-darkBlue rounded-full hover:text-white duration-300 ease-linear transition-all font-semibold text-sm">Start Free Trial</button>
              </div>
@@ -94,7 +95,7 @@
     <!-- -------------revanue-grow-------------- -->
     <section id="about-us" class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
       <div class="container">
-        <h2 class="text-center max-w-[1010px] mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl">See your revenue grow in
+        <h2 class="text-center max-w-[1010px] mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl max-sm:pt-6">See your revenue grow in
 real time with our dashboards.</h2>
 <div class=" flex items-center justify-center gap-4 mt-8 flex-wrap">
   <button class="py-5 px-8 bg-darkBlue rounded-full text-white">CRM Integrations</button>
@@ -108,7 +109,7 @@ real time with our dashboards.</h2>
   <img src="/assets/images/svg/left-hand-arrow.svg" alt="aroow" class="-bottom-8 max-2xl:-bottom-20 max-2xl:-left-9 -left-1 absolute max-lg:hidden pointer-events-none">
 <div class="max-w-[1288px] h-[460px] greenlinear mx-auto rounded-[48px] mt-8 max-xl:h-full">
   <div class="bg-white max-w-[1299px] h-[458px] mx-auto rounded-[48px] translate-y-2 shadow-3xl max-xl:h-full">
-    <div class="py-14 ps-10 pe-14">
+    <div class="py-14 ps-10 pe-14 max-md:py-10 max-sm:py-7 max-md:px-9 max-sm:px-7">
       <p class="max-w-[1144px]  flex gap-5 font-normal text-lg text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6"></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       <p class="pt-6 max-2xl:pt-4 flex gap-5 font-normal text-lg  text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6"></span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
       <p class="pt-6 max-2xl:pt-4 flex gap-5 font-normal text-lg  text-offPurple"><span><img src="/assets/images/svg/check-icon.svg" alt="check" class="min-w-6 min-h-6"></span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -123,7 +124,7 @@ real time with our dashboards.</h2>
     <!-- --------------marketing-analytics------------ -->
     <section class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
       <div class="container">
-        <h2 class="text-center max-w-[790px] mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl">Marketing analytics that REALLY matter</h2>
+        <h2 class="text-center max-w-[790px] mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl max-sm:pt-6">Marketing analytics that REALLY matter</h2>
         <div class="flex items-center justify-center mt-5">
           <img src="/assets/images/png/marketing-analytics-2k.png" alt="Marketing" class="max-w-[988px] max-lg:w-full pointer-events-none">
         </div>
@@ -150,7 +151,7 @@ real time with our dashboards.</h2>
     </section>
     <!-------------------campaign-syn-------------------  -->
     <section id="pricing" class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
-      <h2 class="text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl">How <span class="text-darkBlue">Main Campaign</span> Sync Works</h2>
+      <h2 class="text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl max-sm:pt-6">How <span class="text-darkBlue">Main Campaign</span> Sync Works</h2>
         <div class="flex items-center gap-6 justify-center flex-wrap mt-16 max-lg:mt-14 max-md:mt-10 max-sm:mt-7">
           <div class="w-[327px] h-48 greenlinear rounded-3xl shadow-3xl">
             <div class="bg-white rounded-3xl w-[327px] h-[191px] flex items-center  translate-y-1 flex-col">
@@ -191,7 +192,7 @@ real time with our dashboards.</h2>
     <!-- ------------------sales-driven----------------- -->
     <section id="pricing-selling" class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
       <div class="container">
-        <h2 class="max-w-[991px] text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl">Understand <sapn class="text-darkBlue">how many sales</sapn> are driven from your campaigns</h2>
+        <h2 class="max-w-[991px] text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl max-sm:pt-6">Understand <sapn class="text-darkBlue">how many sales</sapn> are driven from your campaigns</h2>
         <div class="flex items-center max-md:flex-wrap mt-9 max-sm:mt-5">
           <div class="w-6/12 max-md:w-full">
             <div >
@@ -199,7 +200,7 @@ real time with our dashboards.</h2>
               <p class="text-xl font-medium text-lightBlack leading-[140%] max-w-[604px] pt-5">With Main Campaign, you can integrate your conversion data with Facebook conversion API and Offline Conversion Tracking directly.</p>
               <div class="flex items-center gap-4 mt-14 max-md:mt-10 max-sm:mt-5">
                 <div class="shadow-2xl bg-transparent rounded-full">
-                  <button class="shadow-1xl bg-darkBlue text-xl text-white leading-[140%] py-3 px-7 rounded-full">Started<button>
+                  <button class="shadow-1xl bg-darkBlue text-xl text-white leading-[140%] py-3 px-7 rounded-full hover:bg-white hover:border-darkBlue hover:text-darkBlue hover:border duration-300 ease-linear transition-all">Started<button>
                 </div>
                 <div class="flex-col">
                   <p class="font-bold text-lg text-lightBlack leading-[155%]">Free 14 days trial.</p>
@@ -220,7 +221,7 @@ real time with our dashboards.</h2>
     <!-------------------privacy-matters-------------------- -->
     <section class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
       <div class="container">
-        <h2 class="text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl">With Main Campaign, <span class="text-darkBlue">Your Privacy Matters</span></h2>
+        <h2 class="text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl max-sm:pt-6">With Main Campaign, <span class="text-darkBlue">Your Privacy Matters</span></h2>
       </div>
        <div class="flex items-center justify-center gap-14 max-lg:gap-10 max-md:gap-7 max-sm:gap-5 flex-wrap mt-16 max-lg:mt-12 max-md:mt-6 max-sm:mt-3">
           <!-- 01 -->
@@ -258,127 +259,125 @@ real time with our dashboards.</h2>
         </div>
     </section>
     <!-- ------------------busniess-genrate------------------ -->
-    <section class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5 overflow-hidden">
-      <div class="container">
-        <h2 class="text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl">Businesses generate more revenue with Main Campaign</h2>
-      </div>
-       <div class="flex items-center justify-center mt-28 ">
-        <div class="slider-parent flex items-center pb-10 mx-5">
-          <!-- 01 -->
-          <div class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:min-w-[400px] max-md:min-w-[425px] min-w-[476px] pt-2 mx-6">
-            <div class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
-              <div class="flex items-center justify-center">
-                <img class="mt-[-30%]" src="/assets/images/svg/next-tag.svg" alt="next-tag">
-
-              </div>
-               <p class="text-2xl font-bold text-start leading-[112%] text-offBlack">Next Technologies</p>
-                        <p class="max-w-[395px] font-medium text-base text-lightGray leading-[150%]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+   <section class="pt-36 max-xl:pt-28 max-lg:pt-20 max-md:pt-14">
+        <div class="container overflow-hidden">
+            <div class="text-center">
+                <h2
+                    class="text-8xl font-bold text-lightBlack max-w-[887px] mx-auto leading-lg max-lg:text-5xl max-md:text-4xl max-sm:text-3xl pb-12 max-sm:pt-6">
+                    Businesses generate more revenue with Main Campaign</h2>
+            </div>
+            <div class="slider-parent-one  gap-7 max-sm:mx-4 py-20 max-lg:py-12 max-md:py-7 max-sm:py-5">
+                <div
+                    class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[360px] max-sm:min-w-[375px] max-md:min-w-[425px]  min-w-[476px] pt-2">
+                    <div
+                        class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
+                        <div class="flex flex-col items-center -mt-[34%]">
+                            <img src="/assets/images/svg/next-tag.svg" alt="next-tags">
+                              </div>
+                        <p class="text-2xl font-bold text-start text-offBlack leading-[112%]">Next Technologies</p>
+                        <p class="max-w-[395px] text-base text-lightGray pt-2">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.” </p>
-                            <div class="flex gap-3 items-center mt-8">
-                            <img class="size-[58px]" src="./assets/images/svg/james.svg" alt="img">
+                        <div class="flex gap-3 items-center mt-8">
+                            <a href=""><img class="size-[58px]" src="./assets/images/svg/james.svg" alt="img"></a>
                             <div>
-                                <p class="text-2xl font-bold leading-[115%] text-offBlack">James</p>
+                               <a href=""><p class="text-2xl font-bold  text-offBlack ">James</p></a>
                                 <p class="text-sm font-medium text-lightGray">Co-Founder at Slash next technologies.</p>
                             </div>
                         </div>
-                        <div class="border border-lightGray w-[419px] rounded-full my-7"></div>
+                        <div class="border border-borderGray max-w-[419px] rounded-full my-7"></div>
                         <button
-                            class="text-xl text-center font-bold border border-transparent max-w-[172px] mx-auto mb-7 text-white  rounded-full py-3 px-6 duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-lightGray hover:text-offBlack shadow-2xl">Read
+                            class="text-sm text-center font-bold border border-transparent max-w-[173px] mx-auto mb-7 text-white  rounded-full py-2.5 px-[50px] duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-darkBlue hover:text-darkBlue shadow-button-shadow">Read
                             more</button>
-
-            </div>
-          </div>
-          <!-- 02 -->
-           <div class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:min-w-[400px] max-md:min-w-[425px] min-w-[476px] pt-2 mx-6">
-            <div class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
-              <div class="flex items-center justify-center">
-                <img class="mt-[-30%]" src="/assets/images/svg/code-sync.svg" alt="next-tag">
-
-              </div>
-               <p class="text-2xl font-bold text-start leading-[112%] text-offBlack">Next Technologies</p>
-                        <p class="max-w-[395px] font-medium text-base text-lightGray leading-[150%]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    </div>
+                </div>
+                <div
+                    class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[360px] max-sm:min-w-[375px] max-md:min-w-[425px]  min-w-[476px] pt-2">
+                    <div
+                        class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
+                        <div class="flex flex-col items-center -mt-[34%]">
+                            <img src="/assets/images/svg/code-sync.svg" alt="CodeSync"></div>
+                        <p class="text-2xl font-bold text-start text-offBlack leading-[112%]">CodeSync Inc.</p>
+                        <p class="max-w-[395px] text-base text-lightGray pt-2">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.” </p>
-                            <div class="flex gap-3 items-center mt-8">
-                            <img class="size-[58px]" src="./assets/images/svg/kathie.svg" alt="img">
+                        <div class="flex gap-3 items-center mt-8">
+                           <a href=""><img class="size-[58px]" src="./assets/images/svg/kathie.svg" alt="img"></a>
                             <div>
-                                <p class="text-2xl font-bold leading-[115%] text-offBlack">James</p>
-                                <p class="text-sm font-medium text-lightGray">Co-Founder at Slash next technologies.</p>
+                               <a href=""><p class="text-2xl font-bold  text-offBlack ">Kathie</p></a>
+                                <p class="text-sm font-medium text-lightGray">Director and Founder at CodeSync Inc.</p>
                             </div>
                         </div>
-                        <div class="border border-lightGray w-[419px] rounded-full my-7"></div>
+                        <div class="border border-borderGray max-w-[419px] rounded-full my-7"></div>
                         <button
-                            class="text-xl text-center font-bold border border-transparent max-w-[172px] mx-auto mb-7 text-white  rounded-full py-3 px-6 duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-lightGray hover:text-offBlack shadow-2xl">Read
+                            class="text-sm text-center font-bold border border-transparent max-w-[173px] mx-auto mb-7 text-white  rounded-full py-2.5 px-[50px] duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-darkBlue hover:text-darkBlue shadow-2xl">Read
                             more</button>
-
-            </div>
-          </div>
-          <!-- 03 -->
-           <div class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:min-w-[400px] max-md:min-w-[425px] min-w-[476px] pt-2 mx-6">
-            <div class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
-              <div class="flex items-center justify-center">
-                <img class="mt-[-30%]" src="/assets/images/svg/unwarrior-icon.svg" alt="next-tag">
-
-              </div>
-               <p class="text-2xl font-bold text-start leading-[112%] text-offBlack">Next Technologies</p>
-                        <p class="max-w-[395px] font-medium text-base text-lightGray leading-[150%]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    </div>
+                </div>
+                <div
+                    class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[360px] max-sm:min-w-[375px] max-md:min-w-[425px]  min-w-[476px] pt-2">
+                    <div
+                        class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
+                        <div class="flex flex-col items-center -mt-[34%]">
+                          <img src="/assets/images/svg/unwarrior-icon.svg" alt="unwarrior-icon">
+                           </div>
+                        <p class="text-2xl font-bold text-start text-offBlack leading-[112%]">Urawarrior</p>
+                        <p class="max-w-[395px] text-base text-lightGray pt-2">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.” </p>
-                            <div class="flex gap-3 items-center mt-8">
-                            <img class="size-[58px]" src="./assets/images/svg/kathie.svg" alt="img">
+                        <div class="flex gap-3 items-center mt-8">
+                           <a href=""><img class="size-[58px]" src="./assets/images/svg/bershan.svg" alt="img"></a>
                             <div>
-                                <p class="text-2xl font-bold leading-[115%] text-offBlack">James</p>
-                                <p class="text-sm font-medium text-lightGray">Co-Founder at Slash next technologies.</p>
+                               <a href=""><p class="text-2xl font-bold text-offBlack ">Bershan Shaw</p></a>
+                                <p class="text-sm font-medium text-lightGray">Founder at Urawarrior</p>
                             </div>
                         </div>
-                        <div class="border border-lightGray w-[419px] rounded-full my-7"></div>
+                        <div class="border border-borderGray max-w-[419px] rounded-full my-7"></div>
                         <button
-                            class=" text-xl text-center font-bold border border-transparent max-w-[172px] mx-auto mb-7 text-white  rounded-full py-3 px-6 duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-lightGray hover:text-offBlack shadow-2xl">Read
+                            class="text-sm text-center font-bold border border-transparent max-w-[173px] mx-auto mb-7 text-white  rounded-full py-2.5 px-[50px] duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-darkBlue hover:text-darkBlue shadow-button-shadow">Read
                             more</button>
-
-            </div>
-          </div>
-          <!-- 04 -->
-           <div class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:min-w-[400px] max-md:min-w-[425px] min-w-[476px] pt-2 mx-6">
-            <div class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
-              <div class="flex items-center justify-center">
-                <img class="mt-[-30%]" src="/assets/images/svg/next-tag.svg" alt="next-tag">
-
-              </div>
-               <p class="text-2xl font-bold text-start leading-[112%] text-offBlack">Next Technologies</p>
-                        <p class="max-w-[395px] font-medium text-base text-lightGray leading-[150%]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    </div>
+                </div>
+                <div
+                    class="bg-darkBlue rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[360px] max-sm:min-w-[375px] max-md:min-w-[425px]  min-w-[476px] pt-2">
+                    <div
+                        class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[400px] max-md:w-[425px] w-[476px] bg-white shadow-3xl flex flex-col px-6">
+                        <div class="flex flex-col items-center -mt-[34%]">
+                            <img src="/assets/images/svg/code-sync.svg" alt="CodeSync">
+                              </div>
+                        <p class="text-2xl font-bold text-start text-offBlack leading-[112%]">CodeSync Inc.</p>
+                        <p class="max-w-[395px] text-base text-lightGray pt-2">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.” </p>
-                            <div class="flex gap-3 items-center mt-8">
-                            <img class="size-[58px]" src="./assets/images/svg/james.svg" alt="img">
+                        <div class="flex gap-3 items-center mt-8">
+                            <a href=""><img class="size-[58px]" src="./assets/images/svg/kathie.svg" alt="img"></a>
                             <div>
-                                <p class="text-2xl font-bold leading-[115%] text-offBlack">James</p>
-                                <p class="text-sm font-medium text-lightGray">Co-Founder at Slash next technologies.</p>
+                               <a href=""><p class="text-2xl font-bold  text-offBlack ">Kathie</p></a>
+                                <p class="text-sm font-medium text-lightGray">Director and Founder at CodeSync Inc.</p>
                             </div>
                         </div>
-                        <div class="border border-lightGray w-[419px] rounded-full my-7"></div>
+                        <div class="border border-borderGray max-w-[419px] rounded-full my-7"></div>
                         <button
-                            class=" text-xl text-center font-bold border border-transparent max-w-[172px] mx-auto mb-7 text-white  rounded-full py-3 px-6 duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-lightGray hover:text-offBlack shadow-2xl">Read
+                            class="text-sm text-center font-bold border border-transparent max-w-[173px] mx-auto mb-7 text-white  rounded-full py-2.5 px-[50px] duration-300 ease-linear bg-darkBlue hover:bg-white hover:border-darkBlue hover:text-darkBlue shadow-button-shadow">Read
                             more</button>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
     <!-- ----------------ready-to-scale------------------------ -->
-     <section class="relative">
+     <section class="relative mt-9">
         <div class="max-w-[686px] absolute  max-2xl:-bottom-96 -bottom-60 left-0 -z-10">
             <img class="" src="./assets/images/png/bg-bottom-layer.png" alt="bg-layer">
         </div>
         <div class="container">
-            <h2 class="text-8xl font-bold text-center mb-7 text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl">Are you ready to scale?</h2>
+            <h2 class="text-8xl font-bold text-center mb-7 text-lightBlack leading-[116%] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl max-sm:pt-6">Are you ready to scale?</h2>
             <div class="justify-center flex mb-9">
-                <button class="text-base font-medium text-center py-5 px-7 bg-darkBlue text-white rounded-full">Start
+                <button class="text-base font-medium text-center py-5 px-7 bg-darkBlue text-white rounded-full hover:bg-white hover:border-darkBlue hover:text-darkBlue hover:border duration-300 ease-linear transition-all">Start
                     My Free Trial</button>
             </div>
             <div class="max-w-[1218px] mx-auto mb-[90px]">
@@ -387,7 +386,7 @@ real time with our dashboards.</h2>
         </div>
     </section>
     <!-- ---------------footer-------------------- -->
-   <section class="bg-offWhite px-3 pb-14 pt-[120px]">
+   <section class="bg-offWhite px-3 pb-14 max-sm:pb-6 pt-[120px]">
         <!------------------- slider-two--------------------->
         <div class="max-w-[1621px] mx-auto items-center flex mb-16">
             <div class="flex items-center justify-center min-w-10 min-h-10 rounded-full bg-offGray prev cursor-pointer"><img src="/assets/images/svg/prev-arrow.svg" alt="prev-arrow"></div>

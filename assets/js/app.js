@@ -1,4 +1,14 @@
-$(".slider-parent").slick({
+// Navbar
+const navbtn = () => {
+  document.getElementById("navlinks").classList.toggle("max-lg:top-0");
+  document.getElementById("navlinks").classList.toggle('max-lg:left-0');
+  document.getElementById("roated-one").classList.toggle("rotate-45");
+  document.getElementById("roated-two").classList.toggle("-rotate-45");
+  document.getElementById("transperent").classList.toggle("opacity-0");
+  document.body.classList.toggle("overflow-hidden")
+}
+// slider-one
+$(".slider-parent-one").slick({
   dots: true,
   infinite: true,
   speed: 2000,
@@ -6,7 +16,7 @@ $(".slider-parent").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 900,
+  autoplaySpeed: 2000,
   infinite: true,
   variableWidth: true,
   responsive: [
@@ -15,8 +25,6 @@ $(".slider-parent").slick({
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
-        infinite: true,
-        dots: true,
       },
     },
     {
@@ -24,8 +32,6 @@ $(".slider-parent").slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
-        infinite: true,
-        dots: true,
       },
     },
     {

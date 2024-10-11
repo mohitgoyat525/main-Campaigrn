@@ -43,4 +43,6 @@ background: linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 1
 .slider-parent-one .slick-dots li button:before {
   color: transparent !important;
 }
-
+.slider-parent-one .slick-next:before{
+  display: none !important;
+}

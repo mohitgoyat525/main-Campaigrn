@@ -61,6 +61,7 @@
             offGray: '#EEEEEC',
             borderGray: '#DAD7D7',
             skyBlue: '#4AC4E2',
+            
           },
           fontSize: {
             '9xl': "80px",
@@ -87,8 +88,11 @@
     <div class="container">
       <header class="relative z-20">
         <nav class="flex relative z-20 justify-between pt-16  max-sm:p-5 max-xl:pt-8">
-          <div class="mx-xl:shadow-images-shadow bg-transparent "><a href="/"><img
+          <div class="mx-xl:shadow-images-shadow bg-transparent max-md:hidden"><a href="/"><img
                 src="/assets/images/svg/main-campaign-logo.svg" alt="logo"></a></div>
+          <div class="">
+           <a href="/"><img src="/assets/images/svg/main-sm-logo.svg" alt="logo" class="md:hidden"></a>
+          </div>      
           <div onclick="navbtn()" class="flex-col flex gap-1 md:hidden z-20">
             <span class="bg-black origin-left w-6 h-1 rounded-2xl duration-300 ease-linear transition-all"
               id="roated-one"></span>
@@ -111,15 +115,15 @@
           </div>
         </nav>
       </header>
-      <div class="relative z-10 pt-16 max-lg:p-14 max-md:p-8 max-sm:p-5">
+      <div class="relative z-10 pt-16 max-lg:p-14 max-md:p-8 max-sm:p-5 py-10">
         <h1
-          class="leading-[118%] font-bold max-w-[1317px] mx-auto text-9xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl max-sm:text-3xl text-center ">
+          class="leading-[118%] font-bold max-w-[1317px] mx-auto text-9xl max-xl:text-7xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl text-center ">
           The Most Powerful Offline Lead Conversion Data for your <span class="text-white">Business.</span></h1>
-        <p class="text-xl font-normal text-center text-white leading-[115%] pt-4">Seamless integration with your CRM and
+        <p class="text-xl font-normal text-center text-white leading-[115%] pt-4 max-sm:text-base">Seamless integration with your CRM and
           Facebook</p>
         <form class="flex items-center justify-center pt-9 max-md:pt-5 max-sm:pt-3 mx-3">
           <input type="email" placeholder="Enter you work email"
-            class="w-[570px] py-5 ps-5 max-sm:py-4 rounded-full border border-solid border-lightPurple outline-none placeholder:text-lg placeholder:font-medium placeholder:leading-[155%] placeholder:text-lightGray text-lightGray font-medium text-lg">
+            class="w-[570px] py-5 ps-5 max-sm:py-4 rounded-full border border-solid border-lightPurple outline-none placeholder:text-lg placeholder:font-medium placeholder:leading-[155%] placeholder:text-lightGray text-lightGray font-medium text-lg max-md:min-w-80">
         </form>
       </div>
     </div>
@@ -151,7 +155,7 @@
           class="duration-300 ease-linear transition-all hover:bg-darkBlue hover:text-white py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-lg:min-w-[337px] max-sm:min-w-[287px] max-sm:py-4">Marketing
           Platform Integrations</button>
         <button
-          class="duration-300 ease-linear transition-all hover:bg-darkBlue hover:text-white py-4 px-7 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-lg:min-w-[143px] max-sm:min-w-[126px] max-sm:py-4">Analytics</button>
+          class="duration-300 ease-linear transition-all hover:bg-darkBlue hover:text-white py-4 px-[27px] rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-lg:min-w-[143px] max-sm:min-w-[126px] max-sm:py-4">Analytics</button>
         <button
           class="duration-300 ease-linear transition-all hover:bg-darkBlue hover:text-white py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-lg:min-w-[265px] max-sm:min-w-[223px] max-sm:py-4">Easy,
           Safe and Secured</button>
@@ -159,7 +163,7 @@
       <div class="h-[499px] relative max-2xl:h-full max-w-[1398px] mt-16 max-md:mt-10 max-sm:mt-5">
 
         <img src="/assets/images/svg/right-hand-arrow.svg" alt="aroow"
-          class="-top-[59px] -right-2 absolute max-lg:hidden pointer-events-none">
+          class="-top-[59px] -right-2 absolute max-lg:hidden pointer-events-none max-2xl:-right-10">
         <img src="/assets/images/svg/left-hand-arrow.svg" alt="aroow"
           class="-bottom-8 max-2xl:-bottom-20 max-2xl:-left-9 -left-1 absolute max-lg:hidden pointer-events-none">
         <div class="max-w-[1288px] h-[460px] greenlinear mx-auto rounded-[48px] mt-8 max-xl:h-full">
@@ -194,7 +198,7 @@
   </section>
 
   <!-- --------------marketing-analytics------------ -->
-  <section class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
+  <section class="mt-24 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
     <div class="container">
       <h2
         class="text-center max-w-[790px] mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-5xl max-md:text-4xl max-sm:text-2xl max-sm:pt-6 max-sm:px-3">
@@ -208,14 +212,14 @@
         <button
           class="max-lg:min-w-[161px] py-5 px-8 bg-darkBlue rounded-full text-white max-sm:min-w-[128px] max-sm:py-4">Spending</button>
         <button
-          class="max-lg:min-w-[112px] py-4 px-7 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-sm:py-4 duration-300 ease-linear transition-all hover:bg-darkBlue hover:text-white">Reach</button>
+          class="max-lg:min-w-[112px] py-4 px-7 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-sm:py-4 duration-300 ease-linear transition-all hover:bg-darkBlue hover:text-white w-28 h-[53px]">Reach</button>
         <button
-          class="max-lg:min-w-[123px] py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-sm:min-w-[109px] max-sm:py-4 duration-300 ease-linear transition-all hover:bg-darkBlue hover:text-white">Revenue</button>
+          class="max-lg:min-w-[123px] py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-sm:min-w-[109px] max-sm:py-4 duration-300 ease-linear transition-all hover:bg-darkBlue hover:text-white w-[123px] h-[53px]">Revenue</button>
         <button
-          class="max-lg:min-w-[180px] py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-sm:min-w-[159px] max-sm:py-4 duration-300 ease-linear transition-all hover:bg-darkBlue hover:text-white">Inbound
+          class="max-lg:min-w-[180px] py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-sm:min-w-[159px] max-sm:py-4 duration-300 ease-linear transition-all hover:bg-darkBlue hover:text-white w-[180px] h-[53px]">Inbound
           Leads</button>
         <button
-          class="max-lg:min-w-[180px] py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-sm:min-w-[140px] max-sm:py-4 duration-300 ease-linear transition-all hover:bg-darkBlue hover:text-white">Campaigns</button>
+          class="max-lg:min-w-[180px] py-4 px-6 rounded-full text-lightGray bg-offWhite border border-lightestGray border-solid max-sm:min-w-[140px] max-sm:py-4 duration-300 ease-linear transition-all hover:bg-darkBlue hover:text-white w-[153px] h-[53px]">Campaigns</button>
       </div>
       <div class="max-w-[1123px] h-[315px] greenlinear mx-auto rounded-[48px] mt-8 max-xl:h-full relative">
         <img src="/assets/images/svg/matter-dwon-arrow.svg" alt="arrow"
@@ -234,7 +238,7 @@
                   src="/assets/images/svg/check-icon.svg" alt="check"
                   class="min-w-6 min-h-6 pointer-events-none"></span>Duis aute irure dolor in reprehenderit in voluptate
               velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <p class="pt-6 flex gap-5 font-medium text-lg text-offPurple max-sm:text-base"><span><img
+            <p class="pt-6 flex gap-5 font-medium text-lg text-offPurple max-sm:text-base pb-5"><span><img
                   src="/assets/images/svg/check-icon.svg" alt="check"
                   class="min-w-6 min-h-6 pointer-events-none"></span>Ut perspiciatis unde omnis iste natus error sit
               voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
@@ -287,7 +291,7 @@
       <div class="w-[327px] h-48 greenlinear rounded-3xl shadow-3xl duration-300 ease-linear transition-all hover:transform hover:translate hover:scale-95">
         <div class="bg-white rounded-3xl w-[327px] h-[191px] flex items-center translate-y-1 flex-col">
           <h4 class="text-darkBlue text-center font-bold text-2xl leading-[112%] pt-5">Step #5</h4>
-          <p class="text-center font-medium text-base leading-[150%] pt-4 text-lightGray max-w-[302px] mx-auto ">Main
+          <p class="text-center font-medium text-base leading-[150%] pt-4 text-lightGray max-w-[302px] mx-auto pb-3">Main
             Campaign attributes Lead’s purchase revenue to Facebook marketing campaigns. Now you know exactly which
             campaigns are driving purchases for your business</p>
         </div>
@@ -296,13 +300,13 @@
   </section>
 
   <!-- ------------------sales-driven----------------- -->
-  <section id="pricing-selling" class="mt-28 max-lg:mt-20 max-md:mt-14 max-sm:mt-5">
+  <section id="pricing-selling" class="mt-28 max-xl:mt-12 max-sm:mt-5">
     <div class="container">
       <h3
-        class="max-w-[991px] text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-5xl  max-md:text-4xl max-sm:text-2xl max-sm:pt-6 max-sm:px-3">
+        class="max-w-[991px] text-center mx-auto font-bold text-8xl text-lightBlack leading-[116%] max-xl:text-5xl pt-11 max-md:text-4xl max-sm:text-2xl max-sm:pt-6 max-sm:px-3">
         Understand <sapn class="text-darkBlue">how many sales</sapn> are driven from your campaigns</h3>
       <div class="flex items-center max-md:flex-wrap mt-9 max-sm:mt-5">
-        <div class="w-6/12 max-md:w-full">
+        <div class="w-5/12 max-md:w-full">
           <div>
             <p class="text-xl font-medium text-lightBlack leading-[140%] max-w-[635px] max-xl:text-lg">The issue with
               tracking marketing data in an online setting is that you’re not getting the full picture. Although you’re
@@ -323,7 +327,7 @@
             </div>
           </div>
         </div>
-        <div class="w-6/12 max-md:w-full">
+        <div class="w-7/12 max-md:w-full">
           <div class="max-w-[855px] max-xl:w-full">
             <img src="/assets/images/webp/face-book-add.webp" alt="fb" class="max-lg:w-full pointer-events-none">
           </div>
@@ -340,7 +344,7 @@
         With Main Campaign, <span class="text-darkBlue">Your Privacy Matters</span></h2>
     </div>
     <div
-      class="flex items-center justify-center gap-14 max-lg:gap-10 max-md:gap-7 max-sm:gap-5 flex-wrap mt-16 max-lg:mt-12 max-md:mt-6 max-sm:mt-3">
+      class="flex items-center justify-center gap-14  max-lg:gap-7 max-sm:gap-5 flex-wrap mt-16 max-lg:mt-12 max-md:mt-6 max-sm:mt-3 ">
       <!-- 01 -->
       <div
         class="min-w-[351px] h-[312px] rounded-3xl shadow-3xl max-md:min-w-[320px] max-sm:mt-6 max-md:h-[277px] max-sm:min-w-[288px] duration-300 ease-linear transition-all hover:transform hover:translate hover:scale-95">
@@ -394,7 +398,7 @@
     <div class="container overflow-hidden">
       <div class="text-center">
         <h2
-          class="text-8xl font-bold text-lightBlack max-w-[887px] mx-auto leading-lg max-xl:text-5xl max-md:text-4xl max-sm:text-2xl pb-12 max-sm:pb-6 max-sm:pt-6 max-sm:px-3">
+          class="text-8xl font-bold text-lightBlack max-w-[887px] mx-auto leading-lg max-xl:text-5xl max-md:text-4xl max-sm:text-2xl pb-12 max-sm:pb-6 max-sm:pt-6 max-sm:px-3 leading-[116%]">
           Businesses generate more revenue with Main Campaign</h2>
       </div>
       <div class="slider-parent-one gap-7 max-sm:mx-4 pt-20 pb-8 max-lg:py-12 max-md:py-7 max-sm:py-5">
@@ -521,14 +525,14 @@
     </div>
     <div class="container">
       <h2
-        class="text-8xl font-bold text-center mb-7 text-lightBlack leading-[116%] max-xl:text-5xl max-md:text-4xl max-sm:text-2xl max-sm:pt-0 pt-9 max-sm:px-3">
+        class="text-8xl font-bold text-center mb-7 text-lightBlack leading-[116%] max-xl:text-5xl max-md:text-4xl max-sm:text-2xl max-sm:pt-0 pt-9 max-sm:px-3 leading-[116%]">
         Are you ready to scale?</h2>
       <div class="justify-center flex mb-9">
         <button
-          class=" max-sm:py-4 text-base font-medium text-center py-5 px-7 bg-darkBlue text-white rounded-full hover:bg-white hover:border-darkBlue hover:text-darkBlue hover:border duration-300 ease-linear transition-all">Start
+          class="w-48 h-14 max-sm:py-4 text-base font-medium text-center py-5 px-7 bg-darkBlue text-white rounded-full hover:bg-white hover:border-darkBlue hover:text-darkBlue hover:border duration-300 ease-linear transition-all">Start
           My Free Trial</button>
       </div>
-      <div class="max-w-[1218px] mx-auto mb-[90px] max-md:mb-12 max-sm:mb-7">
+      <div class="max-w-[1218px] mx-auto mb-[90px] max-sm:mb-7 max-lg:mb-12">
         <img class="w-full" src="./assets/images/webp/leader-center-2k.webp" alt="leading-center-data">
       </div>
     </div>
@@ -541,7 +545,7 @@
       <div
         class="flex items-center justify-center min-w-10 min-h-10 rounded-full bg-offGray prev cursor-pointer max-sm:min-w-6 max-sm:min-h-6">
         <img src="/assets/images/svg/prev-arrow.svg" alt="prev-arrow"></div>
-      <div class="slick-parent-two overflow-hidden items-center flex">
+      <div class="slick-parent-two overflow-hidden items-center flex gap-8">
         <div><img class="mx-auto" src="./assets/images/svg/nogouch-icon.svg" alt="noguchi-icon"></div>
         <div><img class="mx-auto" src="./assets/images/svg/airbnb-icon.svg" alt="airbnb-icon"></div>
         <div><img class="mx-auto" src="./assets/images/svg/pro-bussnies-icon.svg" alt="pro-business-icon"></div>
@@ -577,7 +581,7 @@
             </a>
             <a href="#pricing-selling">
               <p class="font-light text-base text-offBlack duration-300 ease-linear transition-all hover:text-skyBlue">
-                Pricing Start free trial</p>
+                Start free trial</p>
             </a>
           </div>
         </div>
@@ -597,10 +601,10 @@
             <p class="uppercase text-xl font-bold text-offBlack max-sm:text-lg">subscribe</p>
             <form class="max-w-[447px]">
               <input required
-                class="w-full p-5 rounded-2xl outline-none placeholder:text-base placeholder:font-light placeholder:text-offBlack text-offBlack font-light text-base opacity-70"
+                class="w-full p-5 rounded-2xl outline-none placeholder:text-base placeholder:font-light placeholder:text-offBlack text-offBlack font-light text-base opacity-70 border-lightPurple border-solid border"
                 type="email" placeholder="Enter email address">
             </form>
-            <p class="text-sm font-light opacity-75 leading-[157%] text-offBlack">By submitting your email you agree to
+            <p class="text-sm font-light opacity-75 leading-[157%] text-offBlack max-sm:ps-1">By submitting your email you agree to
               our
               Terms of Use and Sale and Privacy Policy. You will receive email communications from us for
               marketing, informational, and promotional purposes and can opt-out at any time.
@@ -613,7 +617,7 @@
       <a class="text-sm font-light opacity-75" href="/">Privacy Policy • Terms & Conditions</a>
       <div class="flex gap-5">
         <div
-          class="w-12 h-12 rounded-full bg-offGray flex items-center justify-center hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all">
+          class="w-12 h-12 rounded-full bg-offGray flex items-center justify-center hover:transform hover:translate hover:scale-150 duration-300 ease-linear transition-all max-sm:ms-5">
           <a target="_blank" href="https://www.facebook.com/"><img src="./assets/images/svg/face-book-icon.svg"
               alt="facebook"></a></div>
         <div

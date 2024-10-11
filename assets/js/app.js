@@ -73,6 +73,11 @@ $(".slick-parent-two").slick({
     {
       breakpoint: 600,
       settings: {
+        slidesToShow: 3,
+        slidesToScroll: 2,
+      },
+      breakpoint: 440,
+      settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
       },
